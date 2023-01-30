@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W마켓 카트 페이지</title>
+    <link href="/public/styles/reset.css" rel="stylesheet" />
+    <link href="/public/styles/header.css" rel="stylesheet" />
+    <link href="/public/styles/cart.css" rel="stylesheet" />
+    <link href="/public/styles/product.css" rel="stylesheet" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <a id="title" href="./index.html">Market</a>
+    </header>
+    <section>
+      <div id="page-title">장바구니</div>
+      <div id="cart-action-header">
+        <button id="remove-all-button">전체 삭제</button>
+      </div>
+
+      <div id="cart-pay-container">
+        <ul>
+          <li>
+            <span class="cart-pay-info-title">상품 금액</span>
+            <span id="original-price" class="cart-pay-info-value">38,000</span>
+          </li>
+          <li>
+            <span class="cart-pay-info-title">할인 금액</span>
+            <span id="discount-price" class="cart-pay-info-value">0</span>
+          </li>
+          <li>
+            <span class="cart-pay-info-title">배송비</span>
+            <span id="delivery-price" class="cart-pay-info-value">+3,000</span>
+            <span id="delivery-description"
+              >20,000원 이상 주문 시 무료배송</span
+            >
+          </li>
+          <li>
+            <span class="cart-pay-info-title">결제예정금액</span>
+            <span id="total-price" class="cart-pay-info-value">41,000</span>
+          </li>
+        </ul>
+        <button class="payment" type="button">결제하기</button>
+      </div>
+    </section>
+    <script src="./cart.js" type="module"></script>
+  </body>
+</html>
