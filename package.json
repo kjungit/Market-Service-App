@@ -1,0 +1,37 @@
+{
+  "name": "market-service-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjungit/Market-Service-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjungit/Market-Service-App/issues"
+  },
+  "homepage": "https://github.com/kjungit/Market-Service-App#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "postcss": "^8.4.21",
+    "sass": "^1.57.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "staticFiles": {
+    "staticPath": "static"
+  }
+}
