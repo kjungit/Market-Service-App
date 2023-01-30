@@ -8,8 +8,6 @@
   - vanilla js
   - sweetalert 라이브러리 사용
 
-</br>
-
 ---
 
 </br>
