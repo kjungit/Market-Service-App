@@ -1,0 +1,107 @@
+{
+  "sectionInfoList": [
+    {
+      "sectionTitle": "💡 인기 상품",
+      "productList": [
+        {
+          "id": 1,
+          "imgSrc": "public/assets/미드나이트 Apple 2022 맥북 에어.jpeg",
+          "name": "미드나이트 Apple 2022 맥북 에어",
+          "discountPercent": 10,
+          "price": 15200,
+          "originalPrice": 16900
+        },
+        {
+          "id": 2,
+          "imgSrc": "public/assets/스페이스그레이 Apple 2022 맥북 에어.jpeg",
+          "name": "스페이스그레이 Apple 2022 맥북 에어",
+          "discountPercent": 9,
+          "price": 19600,
+          "originalPrice": 17650
+        },
+        {
+          "id": 3,
+          "imgSrc": "public/assets/맥북 프로 13 Apple 2022 맥북 에어.jpeg",
+          "name": "맥북 프로 13 Apple 2022 맥북 에어",
+          "discountPercent": 6,
+          "price": 16820,
+          "originalPrice": 17900
+        }
+      ]
+    },
+    {
+      "sectionTitle": "🎁 새로 들어온 상품",
+      "productList": [
+        {
+          "id": 4,
+          "imgSrc": "public/assets/애플워치 45mm, GPS.jpeg",
+          "name": "애플워치8 45mm, GPS",
+          "discountPercent": 11,
+          "price": 56450,
+          "originalPrice": 63900
+        },
+        {
+          "id": 5,
+          "imgSrc": "public/assets/애플워치 SE 나이키 플래티넘 블랙 스포츠밴드.jpeg",
+          "name": "애플워치 SE 나이키 플래티넘 블랙 스포츠밴드",
+          "discountPercent": 23,
+          "price": 32010,
+          "originalPrice": 41900
+        },
+        {
+          "id": 6,
+          "imgSrc": "public/assets/Apple 애플워치 Ultra 오션 밴드 49mm.jpeg",
+          "name": "Apple 애플워치 Ultra 오션 밴드 49mm",
+          "discountPercent": 5,
+          "price": 109150,
+          "originalPrice": 114900
+        }
+      ]
+    },
+    {
+      "sectionTitle": "🎈 재구매율이 높은 상품",
+      "productList": [
+        {
+          "id": 7,
+          "imgSrc": "public/assets/아이폰 Mini 12 64gb.jpeg",
+          "name": "아이폰 Mini 12 64gb",
+          "discountPercent": 37,
+          "price": 54800,
+          "originalPrice": 88000
+        },
+        {
+          "id": 8,
+          "imgSrc": "public/assets/자급제 아이폰 Mini 12 .jpeg",
+          "name": "자급제 아이폰 Mini 12 ",
+          "discountPercent": 20,
+          "price": 87800,
+          "originalPrice": 110000
+        },
+        {
+          "id": 9,
+          "imgSrc": "public/assets/아이폰 12pro max.jpeg",
+          "name": "아이폰 12pro max",
+          "discountPercent": 28,
+          "price": 107800,
+          "originalPrice": 150000
+        },
+        {
+          "id": 10,
+          "imgSrc": "public/assets/애플워치 SE 40mm.jpeg",
+          "name": "애플워치 SE 40mm",
+          "discountPercent": 25,
+          "price": 26900,
+          "originalPrice": 35900
+        },
+        {
+          "id": 11,
+          "imgSrc": "public/assets/Apple 맥북에어 M1 256GB 16GB.jpeg",
+          "name": "Apple 맥북에어 M1 256GB 16GB",
+          "discountPercent": 9,
+          "price": 125900,
+          "originalPrice": 139000
+        }
+      ]
+    }
+  ]
+}

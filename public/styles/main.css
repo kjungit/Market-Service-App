@@ -1,0 +1,27 @@
+.product-list-section {
+  padding: 16px;
+}
+.section-title {
+  width: 800px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#total-list-anchor {
+  position: absolute;
+  text-align: center;
+  margin: 50px 0;
+  right: 210px;
+  z-index: 10;
+}
+#total-list-anchor > a {
+  padding: 10px 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#total-list-anchor > a:hover {
+  background-color: rgb(232, 232, 232);
+}
