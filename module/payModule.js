@@ -11,7 +11,7 @@ const totalPriceDOM = document.getElementById("total-price");
 export const setPayInfo = () => {
   // 1. 장바구니에서 상품 정보 얻어오기
   // 2. 상품 정보들을 순회하면서 총 가격, 할인 가격, 배송비, 결제 금액 계산하기
-  // 3. 2번에거 계산된 금액들을 DOM.innerHTML로 할당
+  // 3. 2번에서 계산된 금액들을 DOM.innerHTML로 할당
 
   const cartInfoList = getCartInfo();
 
