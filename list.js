@@ -1,0 +1,18 @@
+import { fetchSectionListData } from "./module/fetch.js";
+import { setButtonEvent, setFilterEvent } from "./module/productFilter.js";
+import { getProductList } from "./module/productList.js";
+// 상품 목록을 모두 불러와서 페이지에 띄우기
+
+const sectionInfoList = await fetchSectionListData();
+
+const productList = sectionInfoList.reduce(
+  (prev, curr) => [...prev, ...curr.productList],
+  []
+);
+
+const section = document.getElementsByTagName("section")[0];
+const productListDOM = getProductList(productList);
+section.append(productListDOM);
+
+setButtonEvent(productList);
+setFilterEvent();
